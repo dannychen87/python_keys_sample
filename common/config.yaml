@@ -1,0 +1,3 @@
+endpoint: http://abc.sample.com
+browser: chrome
+timeout: 10

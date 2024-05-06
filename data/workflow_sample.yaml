@@ -1,0 +1,15 @@
+- url: /workflow
+  # Element locators
+  element_1:
+    by: css selector
+    value: input.element_1
+  element_2:
+    by: css selector
+    value: button.element_2
+  element_3:
+    by: css selector
+    value: input.element_3
+  # Test data
+  value1: 4
+  value2: 12.5
+  value3: sample

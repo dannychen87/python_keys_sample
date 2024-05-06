@@ -1,0 +1,18 @@
+- url: /login
+  # Element locators
+  username:
+    by: id
+    value: username
+  password:
+    by: css selector
+    value: input#password
+  submit:
+    by: xpath
+    value: //button[contains(@type, "submit")]
+  logout:
+    by: css selector
+    value: a[href*="logout"]
+  # Login user info
+  user:
+    username: abc@xxx.com
+    password: 1234567890
